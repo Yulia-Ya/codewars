@@ -16,3 +16,5 @@ function lovefunc(flower1, flower2){
       return false 
     }
   }
+
+  console.log(lovefunc(1,4));
