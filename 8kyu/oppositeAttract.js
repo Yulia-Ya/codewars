@@ -18,3 +18,4 @@ function lovefunc(flower1, flower2){
   }
 
   console.log(lovefunc(1,4));
+  console.log(lovefunc(4,4));
