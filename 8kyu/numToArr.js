@@ -8,4 +8,4 @@ function digitize(n) {
     let arr = String(n).split('').reverse().map(Number);
   return arr;
   }
-  
+  console.log(35231);
