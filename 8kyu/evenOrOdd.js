@@ -2,7 +2,7 @@
 
 //Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-
+//SOLUTION
 function even_or_odd(number) {
     if (number % 2 === 0) {
       return 'Even';
@@ -10,3 +10,4 @@ function even_or_odd(number) {
       return 'Odd'
     }
   }
+console.log(even_or_odd(7));
