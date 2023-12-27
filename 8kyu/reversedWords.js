@@ -10,3 +10,5 @@ function reverseWords(str){
     str = str.split(' ').reverse().join(' ');
     return str; // reverse those words
   }
+
+  console.log(reverseWords("The greatest victory is that which requires no battle"));
