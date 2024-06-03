@@ -11,3 +11,13 @@ function reverseWords(str) {
     return str.split(" ").map(  
        el => el.split("").reverse().join("")).join( " " );
   }
+
+
+
+  //This time no story, no theory. 
+  //The examples below show you how to write function accum:
+  //accum("abcd") -> "A-Bb-Ccc-Dddd"
+  
+  function accum(s) {
+	return s.toLowerCase().split('').map((el,i) => el.toUpperCase(el) + el.repeat(i)).join('-')
+}
