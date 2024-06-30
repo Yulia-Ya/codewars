@@ -13,4 +13,3 @@ function spinWords(string){
   } 
   return string.split(' ').map(el => el.length >= 5 ? reversed(el): el).join(' ')
 }
-  console.log(spinWords("This is another test"))
