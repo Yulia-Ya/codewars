@@ -3,3 +3,6 @@ function findOutlier(integers){
     let even =  integers.filter(el => el % 2 !== 0)
   return odd.length > even.length ? even : odd
   }
+
+  console.log(findOutlier());
+  
