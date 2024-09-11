@@ -20,3 +20,19 @@ function order(words){
     // ...
      return words.split(' ').sort((a, b)=> a.match(/\d/) - b.match(/\d/)). join(' ')
   }
+
+  function order(words){
+  
+    const splittedArr = words.split(' ')
+    let arr = []
+    
+    splittedArr.map(word=> 
+   {
+     let sign = word.split('')
+     let num = sign.find(el => parseInt(el))
+     arr.push( [word, parseInt(num)])
+   })
+   
+   return arr.sort((a,b) => a[1] - b[1]).map(el=> el.splice(0,1)).join(' ')
+    
+   }
